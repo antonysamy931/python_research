@@ -9,10 +9,17 @@ def loadDatabase():
     import shelve
     db = shelve.open('people-shelve')
     dbobj = {}
-    for key in db:
+    for key in db:        
         dbobj[key] = db[key]
     db.close()
     return dbobj
+
+def addRecords(records):
+    import shelve
+    db = shelve.open('people-shelve')
+    for key in records:        
+        db[key] = records[key]
+    db.close()
 
 if __name__ == '__main__':
     import imp
