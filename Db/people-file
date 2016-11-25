@@ -1,0 +1,16 @@
+jai
+job|"'programmer'"
+name|"'jai'"
+fathername|"'jai'"
+endrec
+green
+name|'green'
+job|'tester'
+fathername|'test'
+endrec
+antony
+job|"'developer'"
+name|"'Antony'"
+fathername|"'joseph'"
+endrec
+enddb
